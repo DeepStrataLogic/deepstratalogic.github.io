@@ -1,32 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deep Strata Logic | Enterprise Architecture</title>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/4Vp2qJd.png">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
-        .bg-grid { background-size: 40px 40px; background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px); }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepStrata Logic — AI Development & Intelligent Automation</title>
+  <meta name="description" content="DeepStrata Logic builds custom AI systems and intelligent automation — LLM applications, autonomous agents, and workflow automation that think, decide, and act.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <meta name="theme-color" content="#070f1d">
+  <meta property="og:title" content="DeepStrata Logic — AI Development & Intelligent Automation">
+  <meta property="og:description" content="Custom AI systems and intelligent automation that think, decide, and act.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body class="bg-grid min-h-screen flex flex-col justify-center items-center p-6">
-    <main class="max-w-3xl w-full text-center space-y-8 bg-slate-900/80 p-12 rounded-2xl border border-slate-700 shadow-2xl backdrop-blur-sm">
-        <!-- Logo Image -->
-        <div class="mx-auto w-48 h-auto p-2 flex items-center justify-center transition transform hover:scale-105">
-            <img src="https://i.imgur.com/4Vp2qJd.png" alt="Deep Strata Logic Logo" class="max-w-full h-auto">
-        </div>
-        
-        <div class="space-y-4">
-            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-white">Deep Strata Logic</h1>
-            <p class="text-xl text-slate-400 font-light max-w-xl mx-auto">High-performance backend distributed systems, cloud infrastructure, and enterprise AI execution solutions.</p>
-        </div>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="DeepStrata Logic home">
+        <img src="assets/logo-mark.svg" alt="">
+        <span class="brand-word">DEEPSTRATA <span class="thin">LOGIC</span></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Insights</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-links-cta"><a class="btn btn-primary" href="contact.html">Book a call</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="contact.html">Book a call</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
 
-        <div class="pt-8 border-t border-slate-800 flex justify-center">
-            <a href="mailto:contact@deepstratalogic.com" class="text-cyan-400 hover:text-cyan-300 font-semibold transition text-lg">contact@deepstratalogic.com</a>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">AI Development · Automation · Agents</span>
+          <h1>We build AI systems that <span class="text-grad">think, decide, and act.</span></h1>
+          <p class="lead">DeepStrata Logic is an AI-first software studio. We design and ship custom AI applications, autonomous agents, and intelligent automation that turn your data and workflows into measurable outcomes.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="contact.html"><span class="btn-arrow">Start a project</span></a>
+            <a class="btn btn-ghost btn-lg" href="services.html">Explore services</a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="num">AI-first</div><div class="lbl">Delivery model</div></div>
+            <div><div class="num">2&ndash;6 wks</div><div class="lbl">To first working prototype</div></div>
+            <div><div class="num">24/7</div><div class="lbl">Agents that never sleep</div></div>
+          </div>
         </div>
-    </main>
+        <div class="hero-visual reveal">
+          <div class="glow"></div>
+          <div class="codeline"><span class="dot"></span> agent.plan("resolve support ticket")</div>
+          <div class="codeline">→ retrieve context · call tools · draft reply</div>
+          <div class="bar"><i style="width:88%"></i></div>
+          <div class="codeline"><span class="dot"></span> pipeline: ingest → embed → reason</div>
+          <div class="bar"><i style="width:64%"></i></div>
+          <div class="codeline"><span class="dot"></span> confidence 0.96 · action approved</div>
+          <div class="bar"><i style="width:96%"></i></div>
+          <div style="margin-top:1rem">
+            <span class="chip">LLM apps</span><span class="chip">RAG</span><span class="chip">Agents</span>
+            <span class="chip">Automation</span><span class="chip">MLOps</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST / LOGO STRIP -->
+    <section class="section" style="padding-top:0">
+      <div class="container center">
+        <p class="muted" style="font-size:.85rem;letter-spacing:.12em;text-transform:uppercase">Built on a modern, model-agnostic stack</p>
+        <div class="pill-row" style="margin-top:1.2rem">
+          <span class="pill">Claude</span><span class="pill">Python</span><span class="pill">TypeScript</span>
+          <span class="pill">LangGraph</span><span class="pill">Vector DBs</span><span class="pill">AWS / Azure / GCP</span>
+          <span class="pill">Docker · K8s</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>End-to-end AI, from idea to production</h2>
+          <p class="lead" style="margin-inline:auto">We combine software engineering rigor with applied AI to ship products that hold up in the real world.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 3H5a2 2 0 0 0-2 2v3m0 8v3a2 2 0 0 0 2 2h3m8-18h3a2 2 0 0 1 2 2v3m0 8v3a2 2 0 0 1-2 2h-3M9 9l6 6m0-6l-6 6"/></svg></div>
+            <h3>Custom AI Development</h3>
+            <p>LLM-powered products, RAG systems, and copilots built around your data — designed, engineered, and deployed by us.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+            <h3>AI Agents</h3>
+            <p>Autonomous agents that plan, use tools, and complete multi-step tasks — for support, research, ops, and beyond.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h10M4 17h7"/><circle cx="18" cy="14" r="3"/><path d="M18 11v-1m0 8v-1m3-3h1m-8 0h1"/></svg></div>
+            <h3>Intelligent Automation</h3>
+            <p>Replace brittle manual workflows with automation that reads, reasons, and routes — connected to the tools you already use.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+            <h3>Data & RAG Platforms</h3>
+            <p>Pipelines, embeddings, and retrieval that give your models trustworthy, up-to-date knowledge to reason over.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 5 5.6.8-4 3.9 1 5.3L12 15.9 6.9 17l1-5.3-4-3.9L9.6 7z"/></svg></div>
+            <h3>AI Strategy & Consulting</h3>
+            <p>Roadmaps, use-case discovery, and architecture reviews to place your bets where AI actually moves the needle.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0z"/><path d="M12 7v5l3 2"/></svg></div>
+            <h3>MLOps & Deployment</h3>
+            <p>Evaluation, monitoring, and CI/CD for AI — so what you ship stays fast, safe, and observable in production.</p>
+            <a class="card-link" href="services.html">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="grid grid-2" style="gap:3rem;align-items:center">
+          <div class="reveal">
+            <span class="eyebrow">How we work</span>
+            <h2>A pragmatic path to production AI</h2>
+            <p class="muted">No science projects. We move in short, evaluated loops so you see working software early and course-correct with real feedback.</p>
+          </div>
+          <div class="steps reveal">
+            <div class="step"><div class="n"></div><div><h3>Discover</h3><p>We map your workflows, data, and goals to the highest-leverage AI use cases.</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>Prototype</h3><p>A working proof-of-concept in weeks, with clear metrics for success.</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>Engineer</h3><p>We harden the prototype into a secure, tested, production-grade system.</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>Operate</h3><p>Monitoring, evaluation, and iteration to keep quality and ROI climbing.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="card reveal" style="padding:clamp(2rem,4vw,3rem)">
+          <div class="stats-band">
+            <div><div class="num text-grad">10x</div><div class="lbl">Faster delivery with AI-assisted engineering</div></div>
+            <div><div class="num text-grad">70%</div><div class="lbl">Manual effort removed by automation</div></div>
+            <div><div class="num text-grad">&lt;2s</div><div class="lbl">Typical agent response latency</div></div>
+            <div><div class="num text-grad">100%</div><div class="lbl">Model-agnostic, no vendor lock-in</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Let's find the AI that pays for itself</h2>
+          <p>Tell us about a workflow that's slow, repetitive, or hard to scale. We'll show you what an AI system could do about it.</p>
+          <a class="btn btn-primary btn-lg" href="contact.html"><span class="btn-arrow">Book a discovery call</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" style="margin-bottom:1rem">
+            <img src="assets/logo-mark.svg" alt="" style="width:34px;height:34px">
+            <span class="brand-word">DEEPSTRATA <span class="thin">LOGIC</span></span>
+          </a>
+          <p>AI-first software studio building intelligent applications, agents, and automation that think, decide, and act.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="blog.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Custom AI Development</a></li>
+            <li><a href="services.html">AI Agents</a></li>
+            <li><a href="services.html">Intelligent Automation</a></li>
+            <li><a href="services.html">MLOps & Deployment</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <ul>
+            <li><a href="mailto:contact@deepstratalogic.com">contact@deepstratalogic.com</a></li>
+            <li><a href="contact.html">Book a call</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> DeepStrata Logic. All rights reserved.</span>
+        <div class="social">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V24H8V8z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.3 8.3L23 22h-6.8l-5.3-6.9L4.8 22H1.7l7.8-8.9L1 2h6.9l4.8 6.3L18.9 2zm-2.4 18h1.9L7.6 4H5.6l10.9 16z"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — DeepStrata Logic</title>
+  <meta name="description" content="Get in touch with DeepStrata Logic. Tell us about your AI project or workflow and we'll help you scope it.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <meta name="theme-color" content="#070f1d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="DeepStrata Logic home">
+        <img src="assets/logo-mark.svg" alt="">
+        <span class="brand-word">DEEPSTRATA <span class="thin">LOGIC</span></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Insights</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li class="nav-links-cta"><a class="btn btn-primary" href="contact.html">Book a call</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="contact.html">Book a call</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow reveal">Contact</span>
+        <h1 class="reveal">Let's talk about your <span class="text-grad">AI project</span></h1>
+        <p class="lead reveal">Tell us what you're trying to build or automate. We'll get back within one business day with next steps.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="item">
+              <span class="ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></span>
+              <div><strong>Email</strong><br><a href="mailto:contact@deepstratalogic.com">contact@deepstratalogic.com</a></div>
+            </div>
+            <div class="item">
+              <span class="ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+              <div><strong>Where we work</strong><br><span class="muted">Remote-first · working across time zones</span></div>
+            </div>
+            <div class="item">
+              <span class="ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><strong>Response time</strong><br><span class="muted">Within one business day</span></div>
+            </div>
+            <div class="item">
+              <span class="ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v12H5.2L4 17.2z"/></svg></span>
+              <div><strong>Careers</strong><br><a href="mailto:careers@deepstratalogic.com">careers@deepstratalogic.com</a></div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <!-- To go live: create a form on https://formspree.io and replace YOUR_FORM_ID below,
+                 or point the action at your own endpoint. -->
+            <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="grid grid-2" style="gap:1.1rem">
+                <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required></div>
+                <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@company.com" required></div>
+              </div>
+              <div class="grid grid-2" style="gap:1.1rem">
+                <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" placeholder="Company (optional)"></div>
+                <div class="field">
+                  <label for="topic">I'm interested in</label>
+                  <select id="topic" name="topic">
+                    <option>Custom AI development</option>
+                    <option>AI agents &amp; autonomy</option>
+                    <option>Intelligent automation</option>
+                    <option>Data &amp; RAG platform</option>
+                    <option>AI strategy &amp; consulting</option>
+                    <option>Something else</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field"><label for="message">Project details</label><textarea id="message" name="message" placeholder="What are you trying to build or automate? What does success look like?" required></textarea></div>
+              <button class="btn btn-primary btn-lg" type="submit"><span class="btn-arrow">Send message</span></button>
+              <p class="muted" style="font-size:.8rem;margin:.2rem 0 0">This form posts to a placeholder endpoint. Replace <code>YOUR_FORM_ID</code> in the HTML (or wire your own backend) to receive submissions. Prefer email? Write to <a href="mailto:contact@deepstratalogic.com" style="color:var(--cyan)">contact@deepstratalogic.com</a>.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" style="margin-bottom:1rem">
+            <img src="assets/logo-mark.svg" alt="" style="width:34px;height:34px">
+            <span class="brand-word">DEEPSTRATA <span class="thin">LOGIC</span></span>
+          </a>
+          <p>AI-first software studio building intelligent applications, agents, and automation that think, decide, and act.</p>
+        </div>
+        <div><h4>Company</h4><ul>
+          <li><a href="about.html">About</a></li><li><a href="careers.html">Careers</a></li>
+          <li><a href="blog.html">Insights</a></li><li><a href="contact.html">Contact</a></li>
+        </ul></div>
+        <div><h4>Services</h4><ul>
+          <li><a href="services.html">Custom AI Development</a></li><li><a href="services.html">AI Agents</a></li>
+          <li><a href="services.html">Intelligent Automation</a></li><li><a href="services.html">MLOps & Deployment</a></li>
+        </ul></div>
+        <div><h4>Get in touch</h4><ul>
+          <li><a href="mailto:contact@deepstratalogic.com">contact@deepstratalogic.com</a></li>
+          <li><a href="contact.html">Book a call</a></li>
+        </ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> DeepStrata Logic. All rights reserved.</span>
+        <div class="social">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V24H8V8z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.3 8.3L23 22h-6.8l-5.3-6.9L4.8 22H1.7l7.8-8.9L1 2h6.9l4.8 6.3L18.9 2zm-2.4 18h1.9L7.6 4H5.6l10.9 16z"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="DeepStrata Logic mark">
+  <defs>
+    <linearGradient id="dsl-top" x1="26" y1="14" x2="94" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20CEFE"/>
+      <stop offset="0.55" stop-color="#09BDED"/>
+      <stop offset="1" stop-color="#005AB6"/>
+    </linearGradient>
+  </defs>
+  <!-- circuit node -->
+  <line x1="82" y1="19" x2="97" y2="19" stroke="#20CEFE" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="100" cy="19" r="3.4" fill="#20CEFE"/>
+  <!-- Layer 3 (bottom) -->
+  <polygon points="60,62 94,79 60,96 26,79" fill="url(#dsl-top)" opacity="0.72"/>
+  <polygon points="26,79 60,96 60,105 26,88" fill="#023a73"/>
+  <polygon points="60,96 94,79 94,88 60,105" fill="#0a5c9e"/>
+  <!-- Layer 2 (middle) -->
+  <polygon points="60,38 94,55 60,72 26,55" fill="url(#dsl-top)" opacity="0.88"/>
+  <polygon points="26,55 60,72 60,81 26,64" fill="#023a73"/>
+  <polygon points="60,72 94,55 94,64 60,81" fill="#0a5c9e"/>
+  <!-- Layer 1 (top) -->
+  <polygon points="60,14 94,31 60,48 26,31" fill="url(#dsl-top)"/>
+  <polygon points="26,31 60,48 60,57 26,40" fill="#023a73"/>
+  <polygon points="60,48 94,31 94,40 60,57" fill="#0a5c9e"/>
+</svg>
